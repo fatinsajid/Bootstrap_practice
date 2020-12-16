@@ -1,0 +1,60 @@
+html,body{
+  height: 100%;
+  font-size: 1rem;
+}
+.gradient{
+  background: rgb(43,60,167);
+  background: linear-gradient(90deg, rgba(43,60,167,1) 0%, rgba(114,45,157,1) 100%);
+}
+
+.page-header{
+  margin-top: 4rem;
+  font-size: 1.20rem;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+.feature{
+  color: white;
+}
+
+.feature ul{
+  padding-left: 1.8rem;
+  list-style-type: none;
+}
+
+.feature ul li{
+  padding-left: 1.8rem;
+  background-image: url(../img/checkmark.svg);
+  background-repeat: no-repeat;
+  line-height: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.icon{
+  color: white;
+  height: 4.5rem;
+  width: 4.5rem;
+  font-size: 1.7rem;
+  border-radius: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery{
+  background-color: whitesmoke;
+}
+
+.gallery img{
+  border-radius: 5%;
+}
+
+.services{
+  color: white;
+}
+footer{
+  color: white;
+  font-size: 1rem;
+  padding: 1rem;
+  margin: 0;
+}
